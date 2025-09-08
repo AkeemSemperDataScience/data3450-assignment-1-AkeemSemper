@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import pytest
 
+
 def test_age_splitter_1():
     df = pd.DataFrame({
         'age': [25, 30, 35, 40, 45],
